@@ -36,11 +36,30 @@ Or, using jsDelivr CDN:
 </script>
 ```
 
+### Install via npm (Node/Frontend projects)
+
+You can also install the module from npm:
+
+```sh
+npm i drag_drop_swipe
+```
+
+Then import and use in your Node/ESM project:
+
+```js
+import DragDropSwipe from "drag_drop_swipe";
+DragDropSwipe.init({
+  /* options */
+});
+```
+
 **Note:**
 
 - The URL must point to a valid ES module file.
 - Some CDNs (like jsDelivr) may cache files, so update the URL if you change the code.
 - GitHub raw URLs work for public repos, but may have slower performance than a CDN.
+- The npm package name is `drag_drop_swipe` (with underscores).
+- For frontend use, you may need to bundle or serve the module with a tool like Vite, Webpack, or Parcel.
 
 ## Usage Example
 
@@ -69,14 +88,14 @@ Or, using jsDelivr CDN:
 
 ### DragDropSwipe.init(options)
 
-| Option            | Type     | Description                                                      |
-| ----------------- | -------- | ---------------------------------------------------------------- |
-| draggableSelector | string   | CSS selector for draggable elements (required)                   |
-| droppableSelector | string   | CSS selector for drop targets (optional, default: document)      |
-| disposeSelector   | string   | CSS selector for dispose/trash area (optional)                   |
-| gridSize          | object   | `{ cols: number, rows: number }` grid size for dropzone          |
-| onDragStart       | function | Callback for drag start `(el, event)`                            |
-| SwipeThreshold    | number   | Threshold for swipe detection (optional, default: 7)             |
+| Option            | Type     | Description                                                 |
+| ----------------- | -------- | ----------------------------------------------------------- |
+| draggableSelector | string   | CSS selector for draggable elements (required)              |
+| droppableSelector | string   | CSS selector for drop targets (optional, default: document) |
+| disposeSelector   | string   | CSS selector for dispose/trash area (optional)              |
+| gridSize          | object   | `{ cols: number, rows: number }` grid size for dropzone     |
+| onDragStart       | function | Callback for drag start `(el, event)`                       |
+| SwipeThreshold    | number   | Threshold for swipe detection (optional, default: 7)        |
 
 ## Author & License
 
