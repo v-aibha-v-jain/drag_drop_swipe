@@ -1,6 +1,6 @@
 {
   "name": "drag_drop_swipe",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal drag, drop, and swipe module for the web.",
   "main": "drag-drop-swipe.mjs",
   "type": "module",
