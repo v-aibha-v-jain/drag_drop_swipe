@@ -1,0 +1,22 @@
+{
+  "name": "drag_drop_swipe",
+  "version": "1.0.0",
+  "description": "A minimal drag, drop, and swipe module for the web.",
+  "main": "drag-drop-swipe.mjs",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v-aibha-v-jain/drag_drop_swipe.git"
+  },
+  "author": "Vaibhav Jain",
+  "mail": "vaibhavjain.vjv.email@example.com",
+  "license": "MIT",
+  "keywords": [
+    "drag",
+    "drop",
+    "swipe",
+    "module",
+    "javascript",
+    "web"
+  ]
+}
