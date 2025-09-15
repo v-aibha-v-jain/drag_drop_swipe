@@ -41,13 +41,13 @@ Or, using jsDelivr CDN:
 You can also install the module from npm:
 
 ```sh
-npm i drag_drop_swipe
+npm i draggrid
 ```
 
 Then import and use in your Node/ESM project:
 
 ```js
-import DragDropSwipe from "drag_drop_swipe";
+import DragDropSwipe from "draggrid";
 DragDropSwipe.init({
   /* options */
 });
