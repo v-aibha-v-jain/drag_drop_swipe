@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>DragDropSwipe Demo</title>
@@ -16,6 +17,7 @@
       user-select: none;
       font-weight: bold;
     }
+
     .dropzone {
       width: 500px;
       height: 500px;
@@ -29,6 +31,7 @@
         repeating-linear-gradient(to bottom, #bde0fe 0, #bde0fe 1px, transparent 1px, transparent 50px);
       background-size: 50px 50px;
     }
+
     .trash {
       width: 100px;
       height: 100px;
@@ -44,6 +47,7 @@
     }
   </style>
 </head>
+
 <body>
   <h2>DragDropSwipe Demo (10x10 Grid)</h2>
   <div id="designs" style="display:flex;gap:10px;margin-bottom:20px;">
@@ -65,9 +69,10 @@
       droppableSelector: '.dropzone',
       disposeSelector: '.trash',
       gridSize: { cols: 10, rows: 10 },
-      onDragStart: (el, e) => {},
+      onDragStart: (el, e) => { },
       SwipeThreshold: 8,
     });
   </script>
 </body>
+
 </html>

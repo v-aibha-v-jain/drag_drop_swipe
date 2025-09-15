@@ -1,5 +1,7 @@
 # DragDropSwipe.js
 
+![demo.gif](./demo.gif)
+
 A lightweight, dependency-free JavaScript module for drag, drop, and swipe interactions. Import and use with a single line!
 
 ## Features
