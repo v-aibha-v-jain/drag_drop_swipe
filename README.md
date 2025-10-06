@@ -12,6 +12,19 @@ A lightweight, dependency-free JavaScript module for drag, drop, and swipe inter
 - No dependencies
 - Easy to use: just import and go
 
+## Drag & Drop Feature Verification
+
+The drag and drop functionality has been tested and works as expected:
+
+- The `body` is used as the dropzone.
+- Elements can be freely dragged and dropped.
+- No errors appear in the browser console during drag & drop interactions.
+
+### How to Test
+1. Open `index.html` in any modern browser.
+2. Use your mouse to drag and drop elements anywhere on the page.
+3. Check the browser console (F12 → Console) to verify that no errors occur.
+
 ## Installation & Usage
 
 ### Import Directly from URL
